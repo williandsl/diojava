@@ -12,4 +12,11 @@ public class aboutMe {
         System.out.println(idade);
         System.out.println(altura);
     }
+
+    public class Tv {
+        int canal = 1;
+        void mudarCanal(){
+            canal = canal + novoCanal;
+        }
+    }
 }
