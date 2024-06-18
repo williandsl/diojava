@@ -1,9 +1,13 @@
-public interface ReprodutorMusical {
+class MusicPlayer {
+    public void play() {
+        System.out.println("Playing music");
+    }
 
-    public void tocar();
+    public void pause() {
+        System.out.println("Pausing music");
+    }
 
-    public void pausar();
-
-    public void selecionarMusica(String musica);
-
+    public void selectMusic(String music) {
+        System.out.println("Selecting music: " + music);
+    }
 }
