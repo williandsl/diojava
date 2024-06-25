@@ -1,11 +1,13 @@
-public class ContaPoupanca extends Conta{
+public class ContaPoupanca extends Conta {
     public ContaPoupanca(Cliente cliente) {
         super(cliente);
     }
 
     @Override
     public void imprimirExtrato() {
-        System.out.println("Extrato da conta poupança");
+        System.out.println("### Extrato da Conta Poupança ###");
         printInfoComuns();
+        System.out.println("###############################");
     }
 }
+

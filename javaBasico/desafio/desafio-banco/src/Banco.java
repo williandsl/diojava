@@ -3,6 +3,8 @@ import lombok.Data;
 import java.util.List;
 @Data
 public class Banco {
-    private String nome;
-    private List<Conta> contas;
+    protected String nome;
+    protected String endereco;
+    protected int codigo;
+    protected List<Conta> contas;
 }
